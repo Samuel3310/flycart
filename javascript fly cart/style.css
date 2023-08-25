@@ -100,35 +100,8 @@ body {
     align-items: center;
 }
 
-.card-content::before, .card-content::after {
-    position: absolute;
-    content: "";
-    background-color: var(--secondary);
-    border-radius: 50%;
-    transition: .5s ease-in-out;
-}
 
-.card-content::before {
-    top: -6%;
-    right: -6%;
-    width: 9rem;
-    height: 9rem;
-}
 
-.card-content::after {
-    bottom: -6%;
-    left: -6%;
-    width: 5rem;
-    height: 5rem;
-}
-
-.card-content:hover::before {
-    transform: scale(2.2);
-}
-
-.card-content:hover::after {
-    transform: scale(0);
-}
 
 .card-img, 
 .card-title {
