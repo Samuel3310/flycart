@@ -3,9 +3,9 @@ const arr = [  '', 'phone lite', 'headset one', 'HP Spectre x360 15', 'another p
 const price = [null, '$200', '$300', '$350', '$70', '$1000', '$908', '$323', '$1223','$400']
  const loading = ()=>{
     let slider = document.querySelector('.slider')
-    let counter = 9;
+    let counter = 0;
     
-    for(let i = 1; i < counter; i++){
+    for(let i = 9; i > counter; i++){
     slider.innerHTML +=  `
         <div class="card">
 
