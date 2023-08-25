@@ -5,7 +5,7 @@ const price = [null, '$200', '$300', '$350', '$70', '$1000', '$908', '$323', '$1
     let slider = document.querySelector('.slider')
     let counter = 1;
     
-    for(let i = 9; i > counter; i--){
+    for(let i = 10; i >= counter; i--){
     slider.innerHTML +=  `
         <div class="card">
 
